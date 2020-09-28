@@ -1,5 +1,24 @@
+<script>
+  export default {
+    name: 'about',
+    data() {
+      return {
+        title: 'about',
+      };
+    },
+    computed: { },
+    methods: { },
+    mounted() { }
+  };
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <section id='about'>
+    About
+  </section>
 </template>
+
+<style scoped lang='scss'>
+  // @import '../scss/imports';
+
+</style>

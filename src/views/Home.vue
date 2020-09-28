@@ -1,18 +1,24 @@
+<script>
+  export default {
+    name: 'home',
+    data() {
+      return {
+        title: 'home',
+      };
+    },
+    computed: { },
+    methods: { },
+    mounted() { }
+  };
+</script>
+
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <section id='home'>
+    Home
+  </section>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+<style scoped lang='scss'>
+  // @import '../scss/imports';
 
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
-</script>
+</style>
