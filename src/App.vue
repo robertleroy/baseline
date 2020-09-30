@@ -34,7 +34,7 @@
 </template>
 
 <style lang='scss'>
-  // @import './scss/baseline';
+  @import './scss/baseline';
   #app {
     display: grid;
     grid-template-rows: auto 1fr;
